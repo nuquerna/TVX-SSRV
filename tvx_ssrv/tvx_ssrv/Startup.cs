@@ -2,6 +2,10 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using SL;
+using DL;
+using SLInterface;
+using DLInterface;
 
 namespace tvx_ssrv
 {
@@ -16,7 +20,10 @@ namespace tvx_ssrv
 
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddTransient<IContractService, ContractService>();
+            services.AddTransient<IContractDao, ContractDao>();
+            services.AddTransient<IUserService, UserService>();
+            services.AddTransient<IUserDao, UserDao>();
             services.AddMvc();
         }
 

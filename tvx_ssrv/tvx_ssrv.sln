@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SL", "SL\SL.csproj", "{EAA9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{B40AC7CD-006A-4B10-B14E-71A76D40C28E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLIInterface", "DLIInterface\DLIInterface.csproj", "{2A23E536-51E4-429B-A94A-526D24A1F299}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLInterface", "DLIInterface\DLInterface.csproj", "{2A23E536-51E4-429B-A94A-526D24A1F299}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLInterface", "SLInterface\SLInterface.csproj", "{9FFDCA43-1466-432B-8122-F670EF0A0D2C}"
 EndProject

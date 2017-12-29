@@ -8,6 +8,7 @@ namespace unit_tests
         [TestMethod]
         public void TestMethod1()
         {
+            //SO, i should go and this simple variant of app doesn't need UT (dataannotation intersept a model)
         }
     }
 }

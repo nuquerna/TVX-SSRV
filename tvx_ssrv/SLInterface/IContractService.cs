@@ -1,11 +1,14 @@
-﻿using Model;
+﻿using System.Collections.Generic;
+using Model;
 using System.Threading.Tasks;
 
 namespace SLInterface
 {
-    internal interface IContractService
+    public interface IContractService
     {
-        Task<int> AddNewContract(CreditContract contract);
+        Task<IList<CreditContract>> GetContracts();
+        Task<int> AddContract(CreditContract contract);
         Task UpdateContract(CreditContract contract);
+        Task DeleteContract(int id);
     }
 }

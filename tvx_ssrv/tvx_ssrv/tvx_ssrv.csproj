@@ -16,4 +16,12 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DLIInterface\DLInterface.csproj" />
+    <ProjectReference Include="..\DL\DL.csproj" />
+    <ProjectReference Include="..\Model\Model.csproj" />
+    <ProjectReference Include="..\SLInterface\SLInterface.csproj" />
+    <ProjectReference Include="..\SL\SL.csproj" />
+  </ItemGroup>
+
 </Project>
